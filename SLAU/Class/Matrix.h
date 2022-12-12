@@ -33,8 +33,6 @@ public:
 	//Matrix& MethodGauss_byrow(Matrix&);
 	Matrix& MethodGauss_bycolumn(Matrix&);
 	Matrix& InverseGauss();
-	Matrix& MethodHoleckogo(Matrix&);
-	Matrix& MethodYakobi(Matrix&, Matrix&,const float);
 	Matrix& MethodKVKor(Matrix&);
 	Matrix& MethodGaussZeydel(Matrix&, Matrix&, const float);
 	Matrix& Integer(void);
